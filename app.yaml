@@ -1,25 +1,22 @@
 runtime: nodejs16
+
 service: nuxt-image
-automatic_scaling:
-  min_instances: 1
 
 instance_class: F2
 
-default_expiration: "365d"
-
-inbound_services:
-  - warmup
-
 handlers:
   - url: /_nuxt
-    static_dir: .output/public/_nuxt
+    static_dir: dist/_nuxt
     secure: always
 
-  - url: /(.*\.(gif|png|jpg|ico))$
+  - url: /(.*\.(gif|png|jpg|ico|txt))$
     static_files: static/\1
-    upload: static/.*\.(gif|png|jpg|ico)$
+    upload: static/.*\.(gif|png|jpg|ico|txt)$
     secure: always
 
   - url: /.*
     script: auto
     secure: always
+
+env_variables:
+  HOST: "0.0.0.0"
