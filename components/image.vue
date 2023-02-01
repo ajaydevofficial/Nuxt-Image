@@ -6,7 +6,10 @@
     :key="url"
     :src="url"
     :alt="title"
-    sizes="xs:320px sm:640px md:768px lg:1024px"
+    :sizes="{ xs: '100vw', sm: '640px', md: '100vw', lg: '1024px' }"
+    :style="{
+      width: 100,
+    }"
     quality="80"
     format="avif"
   />

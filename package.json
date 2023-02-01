@@ -10,5 +10,12 @@
   "dependencies": {
     "@nuxt/image-edge": "^1.0.0-27840416.dc1ed65",
     "nuxt": "3.0.0"
+  },
+  "engines": {
+    "node": ">=16.0"
+  },
+  "volta": {
+    "node": "16.11.0",
+    "yarn": "1.22.11"
   }
 }

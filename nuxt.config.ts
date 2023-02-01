@@ -6,6 +6,10 @@ export default defineNuxtConfig({
     '@nuxt/image-edge',
   ],
   image: {
+    provider: 'imagekit',
+    imagekit: {
+      baseURL: 'https://ik.imagekit.io/ajaydevofficial'
+    },
     domains: [
       "cdn.pixabay.com",
       "filesamples.com"
@@ -14,4 +18,5 @@ export default defineNuxtConfig({
   imports: {
     autoImport: true,
   },
+  ssr: true
 });
