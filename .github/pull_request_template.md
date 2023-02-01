@@ -1,98 +1,36 @@
-<style>
-    .flex {
-        display: flex
-    }
-    .items-center{
-        align-items:center
-    }
-    .w-100 {
-        width: 100%
-    }
-    .br-5 {
-        border-radius: 5px
-    }
-</style>
+## This Pull Request is for
 
-### **Review Suggestions**
-
-#### Ensure that the PR is meeting the following conditions
-
-1. Implementation is good (or can be improved).
-2. Check for best practices.
-3. Variable names are standard and meaningful
-4. Logics for the new updates shouldn't break existing flow
-5. Updates on any common codes should be compatible with existing implementation
-6. There shouldn't be any typos
-7. Logics should be as simplified as possible
+- [ ] Bug Fix
+- [ ] New Feature
+- [ ] Update/Enhancement
+- [ ] Technical Debt
 
 ---
 
-<form>
+### 1. What is the current behavior?
 
-### **Pull Request Checks**
+### 2. If the current behavior is a bug, please provide the steps to reproduce and a loom video (Mandatory)
 
-<div class="flex items-center">
-    <input required type="checkbox" name="Dev" value="dev-tested"/>
-    <label>Developer Tested</label>
-</div>
-<div class="flex items-center">
-    <input required type="checkbox" name="Dev" value="dev-tested"/>
-    <label>QA Completed</label>
-</div>
-<div class="flex items-center">
-    <input required type="checkbox" name="Dev" value="dev-tested"/>
-    <label>Backward Compatibility Tested (Dev)</label>
-</div>
-<div class="flex items-center">
-    <input required type="checkbox" name="Dev" value="dev-tested"/>
-    <label>Backward Compatibility Tested (QA)</label>
-</div>
-<div class="flex items-center">
-    <input required type="checkbox" name="Dev" value="dev-tested"/>
-    <label>PR Revert Compatibility Tested (Dev)</label>
-</div>
-<br/>
+### 3. What is the expected behavior, add a loom video? (Loom has to be updated once QA is done, for a final review)
+
+### 4. What is the motivation / use case for changing the behavior?
 
 ---
 
-### **Developer Test Cases**
+### Pull Request Checks
 
-#### The Developer who created the Pull Request should fill the following details
-
-##### All required fields have a \*
-
-<br>
-<div>
-<label>Basic cases *</label><br>
-<textarea rows=5 required class="w-100 br-5"></textarea>
-
-<label>Edge cases \*</label><br>
-<textarea rows=5 required class="w-100 br-5"></textarea>
-
-<label>Sanity cases on surrounding elements</label><br>
-<textarea rows=5 class="w-100 br-5"></textarea>
-
-</div>
-<br/>
+- [ ] Self Reviewed
+- [ ] Developer Tested
+- [ ] Backward Compatibility Tested (Dev)
+- [ ] Backward Compatibility Tested (QA)
+- [ ] PR Revert Compatibility Tested (Dev)
 
 ---
 
-### **QA Test Cases**
+## Developer Tests
 
-#### The SDET responsible for QA should fill the following
+### 1. What are the basic test cases that you have completed for this PR?
 
-##### All required fields have a \*
+### 2. What are the edge cases that you have tested for this PR?
 
-<div>
-<label>Basic cases *</label><br>
-<textarea rows=5 required class="w-100 br-5"></textarea>
-
-<label>Edge cases \*</label><br>
-<textarea rows=5 required class="w-100 br-5"></textarea>
-
-<label>Sanity cases on surrounding elements</label><br>
-<textarea rows=5 class="w-100 br-5"></textarea>
-
-</div>
-
-</form>
+### 3. What are the integration test cases that you have completed for this PR?
